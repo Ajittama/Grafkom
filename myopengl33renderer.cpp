@@ -26,7 +26,7 @@ bool CMyOpenGL33Renderer::Init()
 
 	Error |= !Textures[0].LoadTextureCubeMap(CubeMapTextureFileNames);
 	Error |= !Textures[1].LoadTexture2D("grass.jpg");
-	Error |= !Textures[2].LoadTexture2D("crate.jpg");
+	Error |= !Textures[2].LoadTexture2D("stoneMoss.png");
 	//Error |= !Textures[3].LoadTexture2D("metalplate.jpg");
 
 	// load shaders -----------------------------------------------------------------------------------------------------------
